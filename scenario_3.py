@@ -10,7 +10,7 @@ Original file is located at
 from google.colab import userdata
 
 api_key = userdata.get("AZURE_OPENAI_API_KEY")
-# print("Loaded key:", api_key[:6] + "..." if api_key else "Missing")
+
 
 from google.colab import userdata
 from openai import OpenAI
